@@ -49,7 +49,9 @@ Este Parrafo esta centrado usando la propiedad de alineacion Este Parrafo esta c
 <p align="justify">
 Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion Este parrafo estara justificado utilizando la propiedad de alineacion 
 
+### Texto Enfatizado (BOLD , ITALIC , BOLD7ITALIC)
 
+si el texto que deseamos enfatizar se encuentra de un  parrafo, podemos utilizar algunos trucos para ubicarlos em la documentacion 
 
 
 
