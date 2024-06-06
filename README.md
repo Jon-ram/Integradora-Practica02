@@ -79,7 +79,60 @@ En este caso existen dos formas de hacerlo, como cursiva en negrita y anidada o 
 
 **__Todo este texto es importante__**
 
+##### Subrayado (UNDERLINE)
 
+Algunas veces nesesitamos subrayar texto dentro de la documentacion, para ello, si bien markdown no tiene un atajo o codificacion rapida podemos utilizar el estilo que usa el estandar de HTML usando el tag \<ins> y cerrando con \</ins>.
+
+**Ejemplo**
+
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto textotexto texto texto texto texto texto texto *texto en cursiva* texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto <ins>texto Subrallado</ins> texto texto texto texto.
+
+# Integradora-Practica 03
+continuando con los comandos basicos de git y github para el maquetado de la documentacion.
+
+### 5.  Cuadros para el codigo o Reseñas (BLOCKQUOTES)
+
+Estos elementos son utilizados para resaltar instrucciones especificas para la instalacion, configuracion y/o inicializacion o mostrar secciones de codigo fuente. Se maqueta iniciando el texto con un simbolo de menor que (
+**Ejemplo** 
+Para listar las carpetas y archivos en desde un material de sistema operativo windows debemos ingresar el comando:
+
+> C:/dir
+
+ Despues oprimimos la letra enter
+
+ Tambien podemos ingresarr textos multilinea
+
+ **Ejemplo**
+>Aqui se ingresa un conjunto de instrucciones
+>para explicar al usuario, como instalar el
+>software que hemos diseñado
+
+
+y si deseas incluir viñetas para enlistar pasos podemos utilizar caracte - dentro del texto a documentar.
+
+**Ejemplo**
+**Pasos para instalar la base de datos**
+> - Descargar MySQL del sitio oficial
+> - Instalar el Sistema Gestor de bases de datos, definiendo el puerto y contraseña para el usuario ***root***
+> - Descargamos el archivo de respaldo de la base de datos (.sql)
+> - Restauramos la base de datos usando el comando *mysql *
+> > C:Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root -p password \< respaldo.sql
+
+### 6. Listas ordenadas y Listas desordenadas
+
+si en nuestro documento nesesitamos incluir informacion en forma de lista, un elemento tras otro podemos hacerlo utilizando los numeros con un punto decimal si las deseamos ordenadas o un guion medio - si solo queremos una viñeta.
+
+**Ejemplo**
+Para crear tu primer repositorio en Github deberas:
+1. Contar con cuentade GitHub.
+1. Dar click en el boton *Nuevo repositorio*.
+2. Asignarle un nombre a tu repertorio, por ejemplo  *Practica03-3B*.
+8. Asignarle un nivel de privacidad entre
+   - ***Publico*** si quieres que este disponible para todos los usuarios.
+   - **Privado** si Deseas que solo a quien tu decidas puedan colaborar con tu proyecto
+5. Definir si incluye un archivo de descripcion llamado : *READNE.MD*.
+50. Definir si habra excludiones de archivo a traves del archivo: *.gitignore*.
+3. Guardar los cambios 
 
 
 
