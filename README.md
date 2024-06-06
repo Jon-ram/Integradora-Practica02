@@ -145,8 +145,8 @@ Pero si deseamos poner solo las ligas directas o un correo electronico podemos u
 
 ** EJEMPLO**
 Documento creado por: ***Jonathan Baldemar Ramirez Reyes*** 
-<230410@utxicotepec.edu.mx>
 
+<230410@utxicotepec.edu.mx>
 <http://www.utxicotepec.edu.mx>
 
 
