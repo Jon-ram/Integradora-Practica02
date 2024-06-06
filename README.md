@@ -144,7 +144,9 @@ Mi buscador favorito es: [Google](https://www.google.com).
 Pero si deseamos poner solo las ligas directas o un correo electronico podemos utilizar los simbolor  \<\>
 
 ** EJEMPLO**
-Documento creado por: ***Jonathan Baldemar Ramirez Reyes*** <230410@utxicotepec.edu.mx>
+Documento creado por: ***Jonathan Baldemar Ramirez Reyes*** 
+<230410@utxicotepec.edu.mx>
+
 <http://www.utxicotepec.edu.mx>
 
 
