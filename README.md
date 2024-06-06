@@ -53,11 +53,31 @@ Este parrafo estara justificado utilizando la propiedad de alineacion Este parra
 
 si el texto que deseamos enfatizar se encuentra de un  parrafo, podemos utilizar algunos trucos para ubicarlos em la documentacion 
 
+##### Texto en negrita (BOLD)
 
+para poder ponerlo en negrita, este debera ser encerrado entre dos pares de *
+ 
+ #### Ejemplo
 
+ Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto **Texto importante** Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
 
+##### Texto en cursiva (ITALIC) 
 
+para poder ponerlo en cursiva, este debera ser encerrado entre _ o *
 
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto _Texto importante_ Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+
+##### Texto en negita/cursiva (BOLD/ITALIC)
+
+En este caso existen dos formas de hacerlo, como cursiva en negrita y anidada o Todo en negrita y cursiva
+
+ #### Ejemplo DE CURSIVA EN NEGRITA ANIDADOS
+
+**Este texto es _extremadamente_ importante**
+
+#### Ejemplo DE TODO EN NEGRITA Y CURSIVA
+
+**__Todo este texto es importante__**
 
 
 
