@@ -147,6 +147,10 @@ Pero si deseamos poner solo las ligas directas o un correo electronico podemos u
 Documento creado por: ***Jonathan Baldemar Ramirez Reyes*** <230410@utxicotepec.edu.mx>
 <http://www.utxicotepec.edu.mx>
 
+####8.- Imagenes
+![](https://github.com/Jon-ram/Integradora-Practica02/blob/main/LOGO%20TIC%20(4)%20(1).png)
+
+
 
 
 
