@@ -147,7 +147,88 @@ Pero si deseamos poner solo las ligas directas o un correo electronico podemos u
 Documento creado por: ***Jonathan Baldemar Ramirez Reyes*** <230410@utxicotepec.edu.mx>
 <http://www.utxicotepec.edu.mx>
 
-####8.- Imagenes
+#### 8. tablas (TABLES)
+ 
+si la documentación lo requiere podemos presentar información en formato en tablas con filas y columnas, para maquetarlas podemos utilizar el carácter \| para delimitar las columnas y \- para delimitar las filas.
+
+**Ejemplo** 
+
+| Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4 |
+|--------------|--------------|--------------|--------------|
+| fila 1 celda 1| fila 1 celda 2 | fila 1 celda 3 | fila 1 celda 4 |
+| fila 2 celda 1| fila 2 celda 2 | fila 2 celda 3 | fila 2 celda 4 |
+| fila 3 celda 1| fila 3 celda 2 | fila 3 celda 3 | fila 3 celda 4 |
+
+En caso de necesitar la fusión de celdas en columnas usaremos la propiedad *colspan* del tag \<td> y en el caso de necesitar la fucion de filas utilizaremos la propiedad *rowspan*
+
+**Ejemplo**
+
+| Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4 |
+|--------------|--------------|--------------|--------------|
+| fila 1 celda 1| fila 1 celda 2 | fila 1 celda 3 | fila 1 celda 4 |
+| fila 2 celda 1 <td colspan=2> fila 2 celda 2 | fila 2 celda 3 | fila 2 celda 4 |
+| fila 3 celda 1| fila 3 celda 2 | fila 3 celda 3 | fila 3 celda 4 |
+|               | fila 4 celda 2 | fila 4 celda 3 | fila 4 celda 4 |
+|               | fila 5 celda 2 | fila 5 celda 3 | fila 5 celda 4 |
+| fila 6 celda 1| fila 6 celda 2 | fila 6 celda 3 | fila 6 celda 4 |
+
+Dado que el ejemplo pasado usando solo markdown no se pudo realizar la fusión en filas debemos utilizar el estándar de HTML, usando los tags. \<th> para los encabezados , \<tr> parav las filas y <td> para las celdas, y en ellos utilizar la propiedad de *colspan* y *rowspan*.
+
+**Ejemplo**
+
+<table>
+   <tr>
+    <th>Encabezado 1</th>
+    <th>Encabezado 2</th>
+    <th>Encabezado 3</th>
+    <th>Encabezado 4</th>
+   </tr>
+
+   <tr>
+     <td>Fila 1 celda 1</td>
+     <td>Fila 1 celda 2</td>
+     <td>Fila 1 celda 3</td>
+     <td>Fila 1 celda 4</td>
+   </tr>
+ 
+   <tr>
+     <td>Fila 2 celda 1</td>
+     <td colspan=3 align="center">Fila 2 celda 2</td>
+   </tr>
+
+   <tr>
+     <td rowspan=3> Fila 3 celda 1</td>
+     <td>Fila 3 celda 2</td>
+     <td>Fila 3 celda 3</td>
+     <td>Fila 3 celda 4</td>
+   </tr>
+
+   <tr>
+     <td>Fila 4 Celda 2</td>
+     <td>Fila 4 Celda 3</td>
+     <td>Fila 4 Celda 4</td>
+    </tr>
+
+   <tr>
+     <td>Fila 5 celda 2</td>
+     <td>Fila 5 celda 3</td>
+     <td>Fila 5 celda 4</td>
+   </tr>
+
+   <tr>
+     <td>Fila 6 celda 1</td>
+     <td>Fila 6 celda 2</td>
+     <td>Fila 6 celda 3</td>
+     <td>Fila 6 celda 4</td>
+   </tr>
+</table>
+
+#### 9. Imágenes
+
+si la documentación requiere de incorporar imágenes, esquemas, modelos, fotografías, o cualquier representación grafica, utilizaremos la estructura de las ligas, maquetando el nombre de la imagen entre corchetes con un signo de admiración de cierre y la liga de referencia a la imagen usando paréntesis.
+
+**Ejemplo**
+
 ![](https://github.com/Jon-ram/Integradora-Practica02/blob/main/LOGO%20TIC%20(4)%20(1).png)
 
 
