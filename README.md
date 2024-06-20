@@ -232,6 +232,11 @@ si la documentación requiere de incorporar imágenes, esquemas, modelos, fotogr
 ![](https://github.com/Jon-ram/Integradora-Practica02/blob/main/LOGO%20TIC%20(4)%20(1).png)
 
 
+o puedes usar html 
+
+<img src="https://github.com/Jon-ram/Integradora-Practica02/blob/main/LOGO%20TIC%20(4)%20(1).png" style="width:200px ; height:70px"/>
+
+
 
 
 
